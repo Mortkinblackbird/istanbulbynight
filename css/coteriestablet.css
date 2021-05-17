@@ -1,0 +1,48 @@
+.coteriesbaslik {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.coteriesyapı{
+    text-align: center;
+    border: solid black;
+    background-color: white;
+    width: 520px;
+    height: 560px;
+    margin-bottom: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+.coteriesicyapı{
+    margin: auto;
+    margin-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.coteriesacıklama{
+    text-align: center;
+    border: solid black;
+    background-color: white;
+    margin: 0px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.diagram{
+    padding-top: 20px;
+    height: 480px;
+    width:480px
+}

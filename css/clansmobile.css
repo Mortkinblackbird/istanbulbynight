@@ -1,0 +1,76 @@
+.navbar {
+    flex-direction: column;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.kisiler-baslik{
+    display: flex;
+    justify-content: center;
+}
+
+.kisilerlist ul li img{
+    height: 80px;
+    width: 80px;
+}
+.kisilerlist2 ul li img{
+    height: 80px;
+    width: 80px;
+}
+.kisilerlist3 ul li img{
+    height: 80px;
+    width: 80px;
+}
+.kisilerlist4 ul li img{
+    height: 80px;
+    width: 80px;
+}
+.kisilerlist ul li:hover{
+    transform: scale(1.2);
+}
+
+
+.kisilerlist2 ul li:hover{
+    transform: scale(1.2);
+}
+
+.kisilerlist3 ul li:hover{
+    transform: scale(1.2);
+}
+
+.kisilerlist4 ul li:hover{
+    transform: scale(1.2);
+}
+
+.kisileryazi2{
+    display: flex;
+    padding-right:40px;
+    padding-left: 40px;
+}
+
+.kisilerlist ul{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.kisilerlist2 ul{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.kisilerlist3 ul{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.kisilerlist4 ul{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}

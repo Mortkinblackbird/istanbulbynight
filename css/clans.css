@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #12475f
+}
+html {
+    font-family: "Open Sans", sans-serif;
+  }
+
+#header {
+    width: 100%;
+    height: 25vh;
+    background: #333;
+    position: relative;
+}
+
+.baslik1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    margin-right: -3px; 
+    font-weight: 100;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background: rgb(216, 13, 13);
+    color: #333;
+    font-size: 1em;
+    font-weight: 100;
+    height: 4rem;
+    line-height: 4rem;
+    list-style-type: none;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 120rem;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0 1.5rem;
+}
+
+.navbar ul li:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+section {
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    background-color: #cccccc;
+}
+
+footer{
+    position: relative;
+    height: 10rem;
+    background-color: #333;
+}
+
+.tarih {
+    padding-top: 0.6rem;
+    border-top: 3px dashed rgb(0, 0, 0);
+    border-radius: 25px;
+    border-bottom: 3px dashed rgb(0, 0, 0);
+    padding-bottom: 0.6rem;
+    text-align: center;
+}
+
+.resim1 {
+    float: left;
+    margin: 1rem;
+}
+
+.pgazete {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.sects-baslik{
+    position: relative;
+    text-align: center;
+}
+
+.Camarilla{
+    border: 3px solid rgb(184, 8, 8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3cQV42gy2YOCX-cHKd5o2Q1zlYcI-bKOR6gVAD-dTU_L7rSAwDW6WPkVpR73sUOjbIM&usqp=CAU);
+}
+
+
+.camarillasects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.camarillasects li{
+    display: inline-block;
+    padding: 0 1.5rem;
+}
+
+.clanssects{
+    border: 3px solid rgb(184, 8, 8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3cQV42gy2YOCX-cHKd5o2Q1zlYcI-bKOR6gVAD-dTU_L7rSAwDW6WPkVpR73sUOjbIM&usqp=CAU);
+}
+
+
+.camarillasects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.camarillasects li{
+    display: inline-block;
+    padding: 0 1.5rem;
+}
+
+.clans-baslik {
+    text-align: center;
+}

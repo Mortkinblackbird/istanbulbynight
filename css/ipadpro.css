@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+
+
+}
+
+footer{
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-bottom: 3em;
+    text-align: center;
+    position: relative;
+    height: 20rem;
+    background-color: #b8c0d3;
+}
+.navbar {
+    width: 100%;
+    background: #28243b;
+    color: #333;
+    font-size: 1em;
+    font-weight: 100;
+    height: 6rem;
+    line-height: 6rem;
+    list-style-type: none;
+}
+
+section {
+
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    background-color: #e8e8e8;
+}
+
+#header {
+    width: 100%;
+    height: 35vh;
+    background-image: url(../fotolar/photo-1518084823714-2f59a7315a39.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+    opacity: 0.9;
+    position: relative;
+}

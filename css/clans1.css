@@ -1,0 +1,83 @@
+.kisiler-baslik{
+    text-align: center;
+}
+
+.kisilerlist ul{  
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    text-align:center;
+    list-style: none;
+}
+.kisilerlist ul li img{
+    width: 200px;
+    height: 200px;
+}
+.kisilerlist ul li:hover{
+    transform: scale(1.5);
+}
+
+.kisilerlist2 ul{  
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    text-align:center;
+    list-style: none;
+}
+.kisilerlist2 ul li img{
+    width: 200px;
+    height: 200px;
+}
+.kisilerlist2 ul li:hover{
+    transform: scale(1.5);
+}
+
+.kisilerlist3 ul{  
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    text-align:center;
+    list-style: none;
+}
+.kisilerlist3 ul li img{
+    width: 200px;
+    height: 200px;
+}
+.kisilerlist3 ul li:hover{
+    transform: scale(1.5);
+}
+
+.kisilerlist4 ul{  
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    text-align:center;
+    list-style: none;
+}
+.kisilerlist4 ul li img{
+    width: 200px;
+    height: 200px;
+}
+.kisilerlist4 ul li:hover{
+    transform: scale(1.5);
+}
+
+
+
+body{
+    background-color: #dddddd;;
+}
+
+.kisileryazi2{
+    padding-right: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3em;
+}
+
+.kisileryazi2 a {
+    padding-top: 1rem;
+    color: black;
+    text-decoration: none;
+}

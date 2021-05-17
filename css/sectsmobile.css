@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+html {
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+  }
+
+body{
+    height: auto;
+}
+
+#header {
+    width: 100%;
+    height: 30vh;
+    background-image: url(../fotolar/photo-1518084823714-2f59a7315a39.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+    opacity: 0.9;
+    position: relative;
+}
+
+.baslik1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    margin-right: -3px; 
+    font-weight: 100;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background: #28243b;
+    color: #333;
+    font-size: 1em;
+    font-weight: 100;
+    height: 4rem;
+    line-height: 4rem;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 120rem;
+
+}
+.navbar-container a {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar-container a:visited {
+    color: red;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(197, 197, 197);
+    color: #fff;
+}
+
+section {
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #e8e8e8;
+}
+.divbaslikgzt{
+    text-align: center;
+}
+
+
+.tarih {
+    padding-top: 0.6rem;
+    border-top: 4px double rgb(0, 0, 0);
+    border-radius: 25px;
+    border-bottom: 4px double rgb(0, 0, 0);
+    padding-bottom: 0.6rem;
+    text-align: center;
+}
+
+.resim1 {
+    display: flex;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.pgazete {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+
+}
+footer{
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-top: 1em;
+    text-align: center;
+    position: relative;
+    padding-top: 2rem;
+    height: auto;
+    background-color: #b8c0d3;
+}
+.sects-baslik{
+    position: relative;
+    text-align: center;
+    background-color: #e8e8e8;
+}
+
+.Camarilla{
+    height: auto;
+    background-image: url(../fotolar/bjhgvkjhsl.png);
+    background-size: 100% 200px;
+    border: 3px solid rgb(184, 8, 8);
+    color: #a7a5a5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+
+.Sabbat{
+    height: auto;
+    border: 3px solid rgb(184, 8, 8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    background: url(../fotolar/Adsz_tasarm_1.png);
+    background-size: 100% 200px;
+    color: #a7a5a5;
+}
+.Anarch{
+    height: auto;
+    border: 3px solid rgb(184, 8, 8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    background: url(../fotolar/behyfrvkjhsl_1.png);
+    background-size: 100% 200px;
+    color: #a7a5a5;
+}
+.Independent{
+    height: auto;
+    background-image: url(../fotolar/the_vampire_masquerade_by_reaperasingrimm-d423iol.jpg);
+    background-size: 100% 200px;
+    border: 3px solid rgb(184, 8, 8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    color: #a7a5a5;
+}
+
+.camarillasects {
+    padding-top: 1rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.camarillasects li{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.clanssects{
+    border: 3px solid rgb(184, 8, 8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3cQV42gy2YOCX-cHKd5o2Q1zlYcI-bKOR6gVAD-dTU_L7rSAwDW6WPkVpR73sUOjbIM&usqp=CAU);
+}
+
+
+.camarillasects li a{
+    color: #e5e2e2;
+    text-decoration: none;
+}
+.camarillasects li a:hover{
+    background-color: rgb(95, 17, 17);
+    color: white;
+}
+
+.clans-baslik {
+    text-align: center;
+}
+
+.kisiler-baslik {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-right: 4em;
+    font-size: 2em;
+    margin-left: 4em;
+    padding-bottom: 2em;
+    color: red;
+}
+
+.kisiyazi{
+    background-color:  #dddddd;
+    padding-bottom: 2rem;
+}
+.kisimetin {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 8em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 8em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b ;
+}
+.kisimetin2 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 8em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 8em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b;
+}
+.kisimetin3 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 8em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 8em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b;
+}
+.kisimetin4 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 8em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 8em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b;
+}
+
+.coteriesbaslik {
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+    padding: 2rem;
+    padding-left: 2.5rem;
+    padding-bottom: -2rem;
+}
+
+.coteriesyapı{
+    text-align: center;
+    border: solid black;
+    background-color: white;
+    width: 940px;
+    height: 640px;
+    margin-bottom: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.coteriesicyapı{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.coteriesacıklama{
+    text-align: center;
+    border: solid black;
+    background-color: white;
+    margin: 30px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+
+.diagram{
+    height: 500px;
+    width:800px
+}

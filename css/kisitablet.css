@@ -1,0 +1,62 @@
+.kisiler-baslik {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.kisiyazi{
+    background-color:  #dddddd;
+    padding-bottom: 2rem;
+}
+.kisimetin {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 2em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 2em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b ;
+}
+.kisimetin2 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 2em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 2em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b;
+}
+.kisimetin3 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 2em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 2em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b;
+}
+.kisimetin4 {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 2em;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 2em;
+    background-color: rgb(243, 244, 247);
+    border-bottom:solid #28243b;
+}
